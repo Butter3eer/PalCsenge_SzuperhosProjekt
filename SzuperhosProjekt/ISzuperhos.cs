@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace SzuperhosProjekt
 {
-    public class Program
+    public interface ISzuperhos
     {
-        public static void Main(string[] args)
-        {
-            Kepregeny.Szereplok("szuperhos.txt");
-        }
+        bool LegyoziE(ISzuperhos szuperhos);
+        double MekkoraAzEreje();
     }
 }

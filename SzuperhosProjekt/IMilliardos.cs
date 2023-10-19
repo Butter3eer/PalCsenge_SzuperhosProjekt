@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace SzuperhosProjekt
 {
-    public class Program
+    public interface IMilliardos
     {
-        public static void Main(string[] args)
-        {
-            Kepregeny.Szereplok("szuperhos.txt");
-        }
+        void KutyutKeszit();
     }
 }
